@@ -11,22 +11,35 @@ body {
     flex-direction: column;
 }
 .container {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     display: flex;
     border: 1px black;
     flex-wrap: wrap;
     border-collapse: collapse;
-    background: rgb(219, 216, 216);
+    background: #858383;
 }
 .cell {
-    border: 1px solid gray;
-    background: white;
+    border: 1px solid #d4cfcf;
+    background-color: #f0f0f0;
     border-collapse: collapse;
-}
-.cell:hover {
-    background-color: red;
 }
 #new-grid {
     margin: 10px;
+}
+.btns {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    height: 50px;
+    width: 100px;
+    padding: 0;
+    margin: 20px;
+    background-color: coral;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em ; 
+}
+#new-grid {
+    margin: 20px;
 }
